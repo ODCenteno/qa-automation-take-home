@@ -4,6 +4,14 @@ The aproach taken to automate this React App, was to use the _component testing_
 
 To go deeper enough to get the state, the [_"cypress-react-app-actions"_](https://github.com/bahmutov/cypress-react-app-actions) module was implemented. This module allows to easily access the internals of React components.
 
+## Cypress Features applied 
+
+* Component Testing
+* Hooks
+* Fixtures
+* Alias
+* Custom Components
+
 ## Instructions to run test with Cypress
 
 ### Preparing the Environment:
