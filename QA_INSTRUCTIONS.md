@@ -6,7 +6,7 @@ The original README is still available for any reference you may require.
 
 Instructions:
 
-1. Install, setup and configure Cypress
+1. Install, setup and configure Cypress ✅
 
 
 2. Write a test to make sure that the app renders without error

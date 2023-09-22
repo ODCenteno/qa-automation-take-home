@@ -1,3 +1,25 @@
+# React Component Test Automation with Cypress
+
+The aproach taken to automate this React App, was to use the _component testing_ feacture included with Cypress, insteat of the end-to-end (E2E) testing. This decision was made based on the specificity of the test to be performed, particularly focusing on covering the app's state.
+
+To go deeper enough to get the state, the [_"cypress-react-app-actions"_](https://github.com/bahmutov/cypress-react-app-actions) module was implemented. This module allows to easily access the internals of React components.
+
+## Instructions to run test with Cypress
+
+### Preparing the Environment:
+1. Clone this repository with `git clone git@github.com:ODCenteno/qa-automation-take-home.git`.
+2. Install dependencies `npm install`.
+
+### Running Tests:
+* To run component test in the command line interface (CLI), use `npm run cy:test`.
+* Run test using the browser with `npm run cy:open`. Select 'App.cy.js'.
+
+### Development Dependencies:
+* "cypress": "^13.2.0".
+* "cypress-react-app-actions": "^1.0.2".
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
