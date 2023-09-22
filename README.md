@@ -10,7 +10,7 @@ To go deeper enough to get the state, the [_"cypress-react-app-actions"_](https:
 * Hooks
 * Fixtures
 * Alias
-* Custom Components
+* Custom Commands
 
 ## Instructions to run test with Cypress
 
