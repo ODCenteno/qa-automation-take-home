@@ -39,9 +39,11 @@ describe('<App />', () => {
       }
     })
 
-    cy.get('.list-container ul').children().should('have.length', 3);
     cy.get('.note-container > button').as('deleteBtn')
+    cy.get('.list-container ul').as('notesList')
+
+    cy.get('@notesList').children().should('have.length', 3);
     cy.get('@deleteBtn').first().click();
-    cy.get('.list-container ul').children().should('have.length', 2);
+    cy.get('@notesList').children().should('have.length', 2);
   })
 });
